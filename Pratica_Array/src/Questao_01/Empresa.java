@@ -22,13 +22,13 @@ public class Empresa {
 
 	public boolean verificarFuncionario(Funcionario f) {
 		for(Funcionario x: this.funcionario) {
-			if(x.CPF == f.CPF) { //VERIFICAR SE TEM IGUAL
+			if(x.CPF == f.CPF) { //VERIFICAR SE JÁ EXISTE FUNCIONÁRIO
 				return true;
 			}
 		}
 		return false;
 		
-		// OUTRA FORMA DE VERIFICAR SE JÁ TEM O FUNCIONÁRIO:
+		// OUTRA FORMA:
 		//if(x.equals(f))
 	}
 	
